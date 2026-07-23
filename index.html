@@ -22,5 +22,14 @@
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      // Registrer service worker → appen virker offline og opdaterer rent
+      // (network-first + versioneret cache i sw.js).
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./sw.js').catch(() => {});
+        });
+      }
+    </script>
   </body>
 </html>
