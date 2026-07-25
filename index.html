@@ -17,8 +17,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet" />
     <title>Investly</title>
-    <script type="module" crossorigin src="./assets/index-D8lYWmEW.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-DDVxI7ke.css">
+    <script>
+      /* Appen er mørk. Sæt tema + soft-UI-skin FØR første tegning, så siden
+         ikke når at blinke i et andet look, før React mounter. */
+      (function () {
+        var root = document.documentElement;
+        root.setAttribute('data-theme', 'dark');
+        root.setAttribute('data-skin', 'neu-dark');
+      })();
+    </script>
+    <script type="module" crossorigin src="./assets/index-B3ZXXkSh.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-BH9g3Mwk.css">
   </head>
   <body>
     <div id="root"></div>
