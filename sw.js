@@ -1,6 +1,6 @@
 /* Investly service worker — enkel network-first med offline-fallback.
    Gør appen installerbar (PWA) og lader den åbne uden net efter første besøg. */
-const CACHE = 'investly-v26';
+const CACHE = 'investly-v27';
 const CORE = [
   './',
   './index.html',
