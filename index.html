@@ -2,10 +2,10 @@
 <html lang="da">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png" />
-    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
-    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" type="image/svg+xml" href="/investly-app/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/investly-app/favicon-32.png" />
+    <link rel="apple-touch-icon" href="/investly-app/apple-touch-icon.png" />
+    <link rel="manifest" href="/investly-app/manifest.webmanifest" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="theme-color" content="#1A7F5A" />
     <meta name="description" content="En rolig, trygt guidet vej fra nul til din første investering." />
@@ -26,8 +26,8 @@
         root.setAttribute('data-skin', 'neu-dark');
       })();
     </script>
-    <script type="module" crossorigin src="./assets/index-iRckHUr5.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-D9qIkWCx.css">
+    <script type="module" crossorigin src="/investly-app/assets/index-X5YPbJpc.js"></script>
+    <link rel="stylesheet" crossorigin href="/investly-app/assets/index-D9qIkWCx.css">
   </head>
   <body>
     <div id="root"></div>
@@ -36,7 +36,7 @@
       // (network-first + versioneret cache i sw.js).
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('./sw.js').catch(() => {});
+          navigator.serviceWorker.register('/investly-app/sw.js').catch(() => {});
         });
       }
     </script>
