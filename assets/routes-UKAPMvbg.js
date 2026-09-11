@@ -1,1 +1,0 @@
-import{i as e}from"./index-Dn6bttaj.js";function t(t){return e[t]||e[0]}export{t};
