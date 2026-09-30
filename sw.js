@@ -1,15 +1,15 @@
 /* NyVestor service worker — enkel network-first med offline-fallback.
    Gør appen installerbar (PWA) og lader den åbne uden net efter første besøg. */
-const CACHE = 'investly-v77';
+const CACHE = 'investly-v78';
 const CORE = [
   "./",
   "./index.html",
   "./manifest.webmanifest",
-  "./nyvestor-icon-32.png",
-  "./nyvestor-icon-180.png",
-  "./nyvestor-icon-192.png",
-  "./nyvestor-icon-512.png",
-  "./nyvestor-maskable-512.png"
+  "./nyvestor-dark-icon-32.png",
+  "./nyvestor-dark-icon-180.png",
+  "./nyvestor-dark-icon-192.png",
+  "./nyvestor-dark-icon-512.png",
+  "./nyvestor-dark-maskable-512.png"
 ];
 
 self.addEventListener('install', (event) => {

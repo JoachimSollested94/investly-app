@@ -1,1 +1,0 @@
-import{u as e}from"./index-DsprhL5z.js";function t(t){return e[t]||e[0]}export{t};

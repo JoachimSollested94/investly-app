@@ -12,19 +12,19 @@
   "theme_color": "#050D09",
   "icons": [
     {
-      "src": "nyvestor-icon-192.png",
+      "src": "nyvestor-dark-icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "nyvestor-icon-512.png",
+      "src": "nyvestor-dark-icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "nyvestor-maskable-512.png",
+      "src": "nyvestor-dark-maskable-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"

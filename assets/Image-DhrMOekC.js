@@ -1,0 +1,1 @@
+import{c as e}from"./index-C3QiCI4u.js";var t=e();function n({src:e,priority:n,unoptimized:r,...i}){return(0,t.jsx)(`img`,{src:e.startsWith(`/`)?`/investly-app/${e.slice(1)}`:e,loading:n?`eager`:`lazy`,fetchPriority:n?`high`:`auto`,...i})}export{n as t};
