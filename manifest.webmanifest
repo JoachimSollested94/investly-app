@@ -1,7 +1,7 @@
 {
-  "name": "Investly – guide til din første investering",
-  "short_name": "Investly",
-  "description": "En rolig, trygt guidet vej fra nul til din første investering.",
+  "name": "NyVestor – guide til din første investering",
+  "short_name": "NyVestor",
+  "description": "NyVestor guider dig trin for trin fra ingen erfaring til dit første køb — konto, indbetaling, valg af investering og selve handlen.",
   "lang": "da",
   "dir": "ltr",
   "start_url": ".",
@@ -11,8 +11,23 @@
   "background_color": "#050D09",
   "theme_color": "#050D09",
   "icons": [
-    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    {
+      "src": "nyvestor-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "nyvestor-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "nyvestor-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ]
 }

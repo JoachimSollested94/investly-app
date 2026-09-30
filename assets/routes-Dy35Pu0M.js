@@ -1,1 +1,0 @@
-import{l as e}from"./index-DXQuwVgw.js";function t(t){return e[t]||e[0]}export{t};
