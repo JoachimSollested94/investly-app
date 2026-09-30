@@ -1,1 +1,0 @@
-import{u as e}from"./index-C7mKV8Ha.js";function t(t){return e[t]||e[0]}export{t};
