@@ -1,0 +1,1 @@
+import{u as e}from"./index-CKB2A_q_.js";function t(t){return e[t]||e[0]}export{t};
