@@ -1,0 +1,1 @@
+import{d as e}from"./index-DCA-qHsA.js";function t(t){return e[t]||e[0]}export{t};
