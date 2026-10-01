@@ -1,1 +1,0 @@
-import{u as e}from"./index-C9L_t1sY.js";function t(t){return e[t]||e[0]}export{t};
