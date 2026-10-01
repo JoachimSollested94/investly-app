@@ -1,0 +1,1 @@
+import{u as e}from"./index-cnHON60i.js";function t(t){return e[t]||e[0]}export{t};
