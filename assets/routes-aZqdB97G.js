@@ -1,1 +1,0 @@
-import{u as e}from"./index-Ci-Z2Bb0.js";function t(t){return e[t]||e[0]}export{t};
