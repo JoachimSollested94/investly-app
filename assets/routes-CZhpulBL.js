@@ -1,1 +1,0 @@
-import{_ as e}from"./index-Qnp94bpc.js";function t(t){return e[t]||e[0]}export{t};
