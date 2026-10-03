@@ -1,7 +1,7 @@
 {
-  "name": "NyVestor – guide til din første investering",
-  "short_name": "NyVestor",
-  "description": "NyVestor guider dig trin for trin fra ingen erfaring til dit første køb — konto, indbetaling, valg af investering og selve handlen.",
+  "name": "Nyvestor – guide til din første investering",
+  "short_name": "Nyvestor",
+  "description": "Nyvestor guider dig gennem det hele. Fra at sætte et mål, oprette en investeringskonto til dit første køb",
   "lang": "da",
   "dir": "ltr",
   "start_url": ".",
