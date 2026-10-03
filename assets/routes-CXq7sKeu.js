@@ -1,1 +1,0 @@
-import{v as e}from"./index-Dacb69K0.js";function t(t){return e[t]||e[0]}export{t};
