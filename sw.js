@@ -1,5 +1,5 @@
 /* Nyvestor: fresh navigation, offline support and safe landing-page updates. */
-const CACHE = 'investly-v110';
+const CACHE = 'investly-v111';
 const CORE = [
   "./",
   "./index.html",
