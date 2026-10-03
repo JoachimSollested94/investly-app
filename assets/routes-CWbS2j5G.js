@@ -1,0 +1,1 @@
+import{v as e}from"./index-CWPydcp9.js";function t(t){return e[t]||e[0]}export{t};

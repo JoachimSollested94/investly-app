@@ -1,1 +1,0 @@
-import{v as e}from"./index-CxPM0xHe.js";function t(t){return e[t]||e[0]}export{t};
