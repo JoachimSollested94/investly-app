@@ -1,0 +1,1 @@
+import{v as e}from"./index-DDUoHsHz.js";function t(t){return e[t]||e[0]}export{t};
