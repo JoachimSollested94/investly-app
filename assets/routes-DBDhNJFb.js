@@ -1,0 +1,1 @@
+import{v as e}from"./index-DHBN4EAU.js";function t(t){return e[t]||e[0]}export{t};
