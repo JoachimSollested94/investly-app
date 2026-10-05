@@ -1,0 +1,1 @@
+import{y as e}from"./index-CLh3R-JF.js";function t(t){return e[t]||e[0]}export{t};

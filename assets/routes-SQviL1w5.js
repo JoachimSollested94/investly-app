@@ -1,1 +1,0 @@
-import{y as e}from"./index-BUd-HUpD.js";function t(t){return e[t]||e[0]}export{t};
