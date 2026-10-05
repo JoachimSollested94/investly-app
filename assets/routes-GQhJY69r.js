@@ -1,0 +1,1 @@
+import{y as e}from"./index-CxN-DBXk.js";function t(t){return e[t]||e[0]}export{t};
