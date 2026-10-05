@@ -1,1 +1,0 @@
-import{y as e}from"./index-BZSxdNHR.js";function t(t){return e[t]||e[0]}export{t};
