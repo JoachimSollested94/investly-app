@@ -1,0 +1,1 @@
+import{C as e}from"./index-CmVN-h9L.js";function t(t){return e[t]||e[0]}export{t};
