@@ -1,0 +1,1 @@
+import{y as e}from"./index-C5yiKWgN.js";function t(t){return e[t]||e[0]}export{t};
