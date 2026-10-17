@@ -1,1 +1,0 @@
-import{D as e}from"./index-p1awgXfe.js";function t(t){return e[t]||e[0]}export{t};
