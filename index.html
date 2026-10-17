@@ -2,8 +2,8 @@
 <html lang="da">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" sizes="32x32" href="C:/Program Files/Git/investly-app/nyvestor-dark-icon-32.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="C:/Program Files/Git/investly-app/nyvestor-dark-icon-180.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/investly-app/nyvestor-dark-icon-32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/investly-app/nyvestor-dark-icon-180.png" />
     <link rel="manifest" href="/investly-app/manifest.webmanifest" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="theme-color" content="#050D09" />
@@ -59,7 +59,7 @@
 
   async function register() {
     try {
-      registration = await navigator.serviceWorker.register('C:/Program Files/Git/investly-app/sw.js', {
+      registration = await navigator.serviceWorker.register('/investly-app/sw.js', {
         updateViaCache: 'none',
       });
       await checkForUpdate(true);
