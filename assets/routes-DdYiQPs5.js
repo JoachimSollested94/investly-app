@@ -1,1 +1,0 @@
-import{D as e}from"./index-DWLvBGGC.js";function t(t){return e[t]||e[0]}export{t};
