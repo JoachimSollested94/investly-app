@@ -1,0 +1,1 @@
+import{D as e}from"./index-4U1ib_LQ.js";function t(t){return e[t]||e[0]}export{t};
