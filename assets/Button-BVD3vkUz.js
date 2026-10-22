@@ -1,1 +1,0 @@
-import{S as e}from"./index-C2WckC6j.js";var t=e();function n({variant:e,type:n=`button`,...r}){return(0,t.jsx)(`button`,{type:n,...r})}export{n as t};
