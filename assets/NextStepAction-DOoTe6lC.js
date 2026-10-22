@@ -1,1 +1,0 @@
-import{S as e}from"./index-Drt110g9.js";var t=e();function n({children:e,next:n}){return(0,t.jsxs)(`div`,{className:`guide-next-action`,children:[e,n&&(0,t.jsx)(`p`,{className:`guide-next-label`,children:n})]})}export{n as t};
