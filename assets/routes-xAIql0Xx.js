@@ -1,0 +1,1 @@
+import{D as e}from"./index-Db9-YebX.js";function t(t){return e[t]||e[0]}export{t};
