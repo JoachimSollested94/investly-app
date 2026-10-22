@@ -1,1 +1,0 @@
-import{D as e}from"./index-BN_jXaVn.js";function t(t){return e[t]||e[0]}export{t};
