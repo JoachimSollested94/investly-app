@@ -1,1 +1,0 @@
-import{D as e}from"./index-B3IZWDF4.js";function t(t){return e[t]||e[0]}export{t};
