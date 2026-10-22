@@ -1,0 +1,1 @@
+import{S as e}from"./index-BDN3f0I8.js";var t=e();function n({variant:e,type:n=`button`,...r}){return(0,t.jsx)(`button`,{type:n,...r})}export{n as t};
