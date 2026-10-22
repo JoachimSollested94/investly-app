@@ -1,0 +1,1 @@
+import{D as e}from"./index-gJ-0SB92.js";function t(t){return e[t]||e[0]}export{t};
