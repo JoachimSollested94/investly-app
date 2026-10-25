@@ -1,1 +1,0 @@
-import{O as e}from"./index-BdTQtaiG.js";function t(t){return e[t]||e[0]}export{t};

@@ -1,0 +1,1 @@
+import{k as e}from"./index-CfWk-OnK.js";function t(t){return e[t]||e[0]}export{t};
