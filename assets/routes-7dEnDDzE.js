@@ -1,0 +1,1 @@
+import{M as e}from"./index-CUS030mw.js";function t(t){return e[t]||e[0]}export{t};
