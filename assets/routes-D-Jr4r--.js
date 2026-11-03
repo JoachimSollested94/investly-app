@@ -1,1 +1,0 @@
-import{M as e}from"./index-BpYxLfX2.js";function t(t){return e[t]||e[0]}export{t};
