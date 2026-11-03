@@ -1,0 +1,86 @@
+import{a as e,i as t,l as n,n as r,r as i,t as a,x as o,y as s}from"./arrow-right-BP-W5SVh.js";import{t as c}from"./rotate-ccw-B_F8P6oT.js";import{t as l}from"./GuideLink-DhA04LE2.js";import{t as u}from"./routes-CBmzHcW-.js";var d=r(`pause`,[[`rect`,{x:`14`,y:`3`,width:`5`,height:`18`,rx:`1`,key:`kaeet6`}],[`rect`,{x:`5`,y:`3`,width:`5`,height:`18`,rx:`1`,key:`1wsw3u`}]]),f=r(`play`,[[`path`,{d:`M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z`,key:`10ikf1`}]]),p=r(`skip-forward`,[[`path`,{d:`M21 4v16`,key:`7j8fe9`}],[`path`,{d:`M6.029 4.285A2 2 0 0 0 3 6v12a2 2 0 0 0 3.029 1.715l9.997-5.998a2 2 0 0 0 .003-3.432z`,key:`zs4d6`}]]),m=o(s(),1);function h(e,t,n){if(typeof CanvasRenderingContext2D>`u`||typeof ResizeObserver>`u`||typeof IntersectionObserver>`u`)return;let r=e.getContext(`2d`);if(!r)return;let i=document.createElement(`canvas`),a=i.getContext(`2d`);if(!a)return;let o=window.matchMedia(`(prefers-reduced-motion: reduce)`),s=!1,c=!1,l=0,u=-1/0,d=0,f=e.closest(`.landing-demo`),p=0,m=0,h=1/0,g=0,_=[];function v(t){if(n?.(t),!_.length)return;let{width:a,height:o}=e,s=Math.ceil(h*o/m);r.clearRect(0,0,a,o);for(let e of _){if(e.y>=s)break;let n=Math.sin(e.long-t*1.55),a=Math.sin(e.short+t*2.18+.67*n),c=Math.sin(e.fine-t*3.1+1.5*a+.5*n),l=.65*n+.35*a,u=g+e.spread*(.78*l+.24*c+.15*Math.sin(e.long*.57+t*.76)),d=Math.max(0,Math.min(o-e.h,e.y+e.refract*(.61*Math.cos(e.long-t*1.55)+.25*a+.2*c))),f=e.spread*.38*a,p=Math.max(0,c*.75+a*.25),m=e.light*(.8+.2*l)*(1-.73*p*p),h=u-f/2,_=i.width+f;r.globalAlpha=m,r.drawImage(i,0,d,i.width,e.h,h,e.y,_,e.h)}}function y(){if(!t.naturalWidth||!p||!m)return;let n=Math.min(window.devicePixelRatio||1,2,560/p),r=Math.max(1,Math.round(p*n)),o=Math.max(1,Math.round(m*n));if(e.width===r&&e.height===o&&_.length)return;e.width=r,e.height=o,i.width=Math.round(r/1.22),i.height=o,g=(r-i.width)/2,a.setTransform(1,0,0,-1,0,o),a.imageSmoothingQuality=`high`,a.drawImage(t,0,0,i.width,o),_=[];let s=Math.max(1,Math.round(n*.85));for(let e=0;e<o;e+=s){let t=e/o,n=Math.log1p(t*2.8);_.push({y:e,h:Math.min(s,o-e),long:n*16.2,short:n*39.4,fine:n*121,spread:i.width*(.007+.048*t),refract:o*(.003+.024*t),light:.78-.3*t})}v(d),e.dataset.ready=`true`,x()}function b(e){l=0,e-u>=1e3/30-.5&&(Number.isFinite(u)&&(d+=Math.min(e-u,100)/1e3),u=e,v(d)),x()}function x(){c||!s||document.hidden||f.dataset.paused===`true`||o.matches||!_.length&&!n?(cancelAnimationFrame(l),l=0,u=-1/0):l||=requestAnimationFrame(b)}let S=e.closest(`.im-mirror-water`),C=new ResizeObserver(t=>{for(let n of t)n.target===e?(p=n.contentRect.width,m=n.contentRect.height):h=n.contentRect.height;y(),o.matches&&v(0)});C.observe(e),C.observe(S);let w=new IntersectionObserver(([e])=>{s=e.isIntersecting,x()});w.observe(f),t.addEventListener(`load`,y);let T=new MutationObserver(()=>{v(d),x()});return T.observe(f,{attributes:!0,attributeFilter:[`data-paused`,`data-intro`]}),document.addEventListener(`visibilitychange`,x),o.addEventListener(`change`,x),()=>{c=!0,cancelAnimationFrame(l),w.disconnect(),C.disconnect(),T.disconnect(),t.removeEventListener(`load`,y),document.removeEventListener(`visibilitychange`,x),o.removeEventListener(`change`,x)}}var g=`investly-landing-intro-seen`,_=`investly-landing-motion-paused`,v=new Set([`im-lead-focus`,`im-ink-reveal`,`im-type-light`,`im-copy-appear`]);function y(e){try{return sessionStorage.getItem(e)}catch{return null}}function b(e,t){try{sessionStorage.setItem(e,t)}catch{}}function x(e){return new Promise(t=>{let n=new Image;n.onerror=t,n.decode||(n.onload=t),n.src=e,n.decode?n.decode().then(t,t):n.complete&&t()})}function S({introVersion:e,assets:t=[],reduced:n=!1}){let r=(0,m.useRef)(null),i=(0,m.useRef)(new Set),[a,o]=(0,m.useState)(!1),[s,c]=(0,m.useState)(()=>n||y(g)===e?`skip`:`play`),[l,u]=(0,m.useState)(()=>y(_)===`true`),[d,f]=(0,m.useState)(()=>!document.hidden),[p,h]=(0,m.useState)(!0),S=JSON.stringify(t),C=a?n?`skip`:s:`hold`,w=C===`play`,T=!a||n||l||!d||!p;(0,m.useEffect)(()=>{let e=!1,t,n=new Promise(e=>{t=window.setTimeout(e,2e3)});return Promise.race([Promise.all(JSON.parse(S).map(x)),n]).then(()=>{clearTimeout(t),e||o(!0)}),()=>{e=!0,clearTimeout(t)}},[S]),(0,m.useEffect)(()=>{let e=()=>f(!document.hidden);return document.addEventListener(`visibilitychange`,e),()=>document.removeEventListener(`visibilitychange`,e)},[]),(0,m.useEffect)(()=>{if(!r.current||typeof IntersectionObserver>`u`)return;let e=new IntersectionObserver(([e])=>h(e.isIntersecting));return e.observe(r.current),()=>e.disconnect()},[]),(0,m.useEffect)(()=>{let e=r.current;if(!e?.getAnimations)return;let t=i.current,o=!a&&!n&&!l&&d&&p;function s(){let n=new Set(e.getAnimations({subtree:!0}));for(let e of t)n.has(e)||t.delete(e);for(let e of n){let n=T&&!(o&&v.has(e.animationName));n&&e.playState===`running`?(e.pause(),t.add(e)):!n&&t.has(e)&&(e.playState===`paused`&&e.play(),t.delete(e))}}s(),e.addEventListener(`animationstart`,s);let c=new MutationObserver(s);c.observe(e,{attributes:!0,attributeFilter:[`data-intro`,`data-paused`]});let u=requestAnimationFrame(s);return()=>{cancelAnimationFrame(u),e.removeEventListener(`animationstart`,s),c.disconnect()}},[T,C,a,n,l,d,p]);let E=(0,m.useCallback)(()=>{s!==`play`||!a||n||(b(g,e),c(`done`))},[s,a,n,e]),D=(0,m.useCallback)(()=>{n||(s===`play`?(b(g,e),c(`done`)):(b(_,`false`),u(!1),c(`play`)))},[s,n,e]);return{rootRef:r,ready:a,introState:C,introPlaying:w,paused:T,manualPaused:l,visible:d,togglePause:(0,m.useCallback)(()=>{n||(b(_,String(!l)),u(!l))},[n,l]),toggleIntro:D,finishIntro:E}}var C=`
+attribute vec2 a_position;
+varying vec2 v_uv;
+void main() {
+  v_uv = a_position * .5 + .5;
+  gl_Position = vec4(a_position, 0., 1.);
+}`,w=`
+#ifdef GL_FRAGMENT_PRECISION_HIGH
+precision highp float;
+#else
+precision mediump float;
+#endif
+uniform sampler2D u_photo;
+uniform vec2 u_size;
+uniform vec2 u_image;
+uniform float u_time;
+varying vec2 v_uv;
+
+// Source-photo skyline: keep the taller pines and pavilion anchored in place.
+float skyline(float x) {
+  if (x < .15) return .414;
+  if (x < .26) return mix(.414, .430, (x - .15) / .11);
+  if (x < .40) return mix(.430, .423, (x - .26) / .14);
+  if (x < .52) return mix(.423, .411, (x - .40) / .12);
+  if (x < .64) return mix(.411, .401, (x - .52) / .12);
+  if (x < .72) return mix(.401, .386, (x - .64) / .08);
+  if (x < .81) return mix(.386, .371, (x - .72) / .09);
+  if (x < .87) return mix(.371, .383, (x - .81) / .06);
+  if (x < .93) return mix(.383, .350, (x - .87) / .06);
+  if (x < .98) return mix(.350, .336, (x - .93) / .05);
+  return mix(.336, .347, (x - .98) / .02);
+}
+float skyMask(vec2 q) {
+  float edge = skyline(q.x);
+  return 1. - smoothstep(edge - .022, edge - .006, q.y);
+}
+vec2 cloudSample(vec2 q, float wind, float billow) {
+  q.x += u_time * .0085 * wind;
+  // Mirrored overscan avoids stretched texture edges in wider viewports.
+  q.x = 1. - abs(1. - mod(q.x, 2.));
+  q.y = clamp(q.y + billow, .001, .999);
+  return q;
+}
+
+void main() {
+  vec2 uv = vec2(v_uv.x, 1. - v_uv.y);
+  // Locate the shore in the photograph, independent of the viewport crop.
+  float scale = max(u_size.x / u_image.x, u_size.y / u_image.y);
+  vec2 visible = u_size / (u_image * scale);
+  vec2 cropped = 1. - visible;
+  vec2 sourceUV = uv * visible + cropped * vec2(.5, .4);
+  float sky = skyMask(sourceUV);
+  float water = smoothstep(.553, .574, sourceUV.y);
+  float depth = clamp((sourceUV.y - .551) / .449, 0., 1.);
+
+  // Waves spread in perspective: compact near the bank, broader close up.
+  float distance = log(1. + depth * 6.);
+  float broadPhase = distance * 24. - u_time * 1.05 + .55 * sin(sourceUV.x * 15. + u_time * .12);
+  float finePhase = distance * 71. + sourceUV.x * 25. - u_time * 1.9;
+  float crossPhase = distance * 114. - sourceUV.x * 38. + u_time * 2.35;
+  float swell = sin(broadPhase);
+  float ripples = .7 * sin(finePhase) + .3 * sin(crossPhase);
+  float amplitude = .28 + depth * .72;
+  vec2 bend = vec2(
+    (.0075 * swell + .0021 * ripples) * amplitude,
+    (.0062 * swell + .0017 * ripples) * amplitude
+  ) * water;
+  float light = (.024 * cos(broadPhase) + .01 * cos(finePhase)) * water * amplitude;
+
+  vec2 sampleUV = clamp(sourceUV + bend, vec2(.001), vec2(.999));
+  vec3 color = texture2D(u_photo, sampleUV).rgb;
+  if (sky > .001) {
+    // Advect a single crisp cloud texture without reversing or double exposure.
+    // Slower low clouds and a soft vertical flow give the banks depth.
+    float wind = .76 + .24 * smoothstep(.0, .32, skyline(sourceUV.x) - sourceUV.y);
+    float billow = .0035 * (sin(sourceUV.x * 9. + u_time * .27) - sin(sourceUV.x * 9.));
+    vec2 cloud = cloudSample(sourceUV, wind, billow);
+    // Protect the source position too: moving clouds must never borrow a tree.
+    color = mix(color, texture2D(u_photo, cloud).rgb, sky * skyMask(cloud));
+  }
+  // Slowly changing skylight is reflected across the lake without glitter.
+  float daylight = sin(sourceUV.x * 5. - u_time * .09) - sin(sourceUV.x * 5.);
+  color *= 1. + daylight * .009 * water;
+  color += vec3(.89, .94, .86) * light;
+  gl_FragColor = vec4(color, 1.);
+}`;function T(e,t){if(typeof WebGLRenderingContext>`u`||typeof ResizeObserver>`u`)return;let n;try{n=e.getContext(`webgl`,{alpha:!1,antialias:!1,depth:!1,powerPreference:`low-power`})}catch{return}if(!n)return;let r=[];function i(e,t){let i=n.createShader(e);return r.push(i),n.shaderSource(i,t),n.compileShader(i),i}let a=n.createProgram(),o=i(n.VERTEX_SHADER,C),s=i(n.FRAGMENT_SHADER,w);if(n.attachShader(a,o),n.attachShader(a,s),n.linkProgram(a),!n.getProgramParameter(a,n.LINK_STATUS)){r.forEach(e=>n.deleteShader(e)),n.deleteProgram(a);return}n.useProgram(a);let c=n.createBuffer();n.bindBuffer(n.ARRAY_BUFFER,c),n.bufferData(n.ARRAY_BUFFER,new Float32Array([-1,-1,1,-1,-1,1,-1,1,1,-1,1,1]),n.STATIC_DRAW);let l=n.getAttribLocation(a,`a_position`);n.enableVertexAttribArray(l),n.vertexAttribPointer(l,2,n.FLOAT,!1,0,0);let u=Object.fromEntries([`size`,`image`,`time`].map(e=>[e,n.getUniformLocation(a,`u_`+e)])),d=n.createTexture();n.bindTexture(n.TEXTURE_2D,d),n.texParameteri(n.TEXTURE_2D,n.TEXTURE_MIN_FILTER,n.LINEAR),n.texParameteri(n.TEXTURE_2D,n.TEXTURE_MAG_FILTER,n.LINEAR),n.texParameteri(n.TEXTURE_2D,n.TEXTURE_WRAP_S,n.CLAMP_TO_EDGE),n.texParameteri(n.TEXTURE_2D,n.TEXTURE_WRAP_T,n.CLAMP_TO_EDGE);let f=new Image,p=!1,m=!1,h=0;function g(e=h){h=e,!(!p||m||n.isContextLost())&&(n.uniform1f(u.time,e),n.drawArrays(n.TRIANGLES,0,6))}let _=new ResizeObserver(([{contentRect:t}])=>{let r=Math.min(window.devicePixelRatio||1,1.5,720/Math.max(1,t.width));e.width=Math.max(1,Math.round(t.width*r)),e.height=Math.max(1,Math.round(t.height*r)),n.viewport(0,0,e.width,e.height),n.uniform2f(u.size,t.width,t.height),g()});_.observe(e),f.onload=()=>{m||(n.bindTexture(n.TEXTURE_2D,d),n.texImage2D(n.TEXTURE_2D,0,n.RGB,n.RGB,n.UNSIGNED_BYTE,f),n.uniform2f(u.image,f.naturalWidth,f.naturalHeight),p=!0,g(),e.dataset.ready=`true`)},f.src=t;let v=t=>{t.preventDefault(),delete e.dataset.ready};return e.addEventListener(`webglcontextlost`,v),{render:g,destroy(){m=!0,f.onload=null,_.disconnect(),e.removeEventListener(`webglcontextlost`,v),n.deleteTexture(d),n.deleteBuffer(c),r.forEach(e=>n.deleteShader(e)),n.deleteProgram(a)}}}var E=e(),D=`lake-forest-fade-v2`,O=`/investly-app/art/lake-iphone.webp`,k=[`/investly-app/art/landing-forest-lake.webp`,O];function A(e){let t=window.matchMedia(`(prefers-reduced-motion: reduce)`);return t.addEventListener(`change`,e),()=>t.removeEventListener(`change`,e)}function j(){return window.matchMedia(`(prefers-reduced-motion: reduce)`).matches}function M({currentTarget:e,clientX:t,clientY:n}){let r=e.getBoundingClientRect();e.style.setProperty(`--glass-x`,`${(t-r.left)/r.width*100}%`),e.style.setProperty(`--glass-y`,`${(n-r.top)/r.height*100}%`)}function N(){let{currentStep:e,furthestStep:r}=t(),o=e||r||1,s=(0,m.useSyncExternalStore)(A,j,()=>!0),{rootRef:g,introState:_,introPlaying:v,paused:y,manualPaused:b,togglePause:x,toggleIntro:C,finishIntro:w}=S({introVersion:D,assets:k,reduced:s}),N=(0,m.useRef)(null),P=(0,m.useRef)(null),F=(0,m.useRef)(null);(0,m.useEffect)(()=>{let e=T(F.current,k[0]),t=h(P.current,N.current,e?.render);return()=>{t?.(),e?.destroy()}},[]);let I=v?`Spring introen over`:`Afspil intro igen`;return(0,E.jsx)(`main`,{className:`landing-demo`,ref:g,"data-paused":y,"data-intro":_,children:(0,E.jsxs)(`div`,{className:`im-page`,children:[(0,E.jsx)(`div`,{className:`im-landscape`,"aria-hidden":`true`,children:(0,E.jsxs)(`div`,{className:`im-camera-shot`,onAnimationEnd:e=>{e.animationName===`im-camera-settle`&&w()},children:[(0,E.jsx)(`canvas`,{className:`im-lake-film`,ref:F}),(0,E.jsx)(`div`,{className:`im-water-reflection`,children:(0,E.jsx)(`span`,{className:`im-lake-wave`})}),(0,E.jsx)(`div`,{className:`im-atmosphere`})]})}),(0,E.jsxs)(`header`,{className:`im-header`,children:[(0,E.jsx)(i,{className:`im-logo`}),(0,E.jsxs)(`div`,{className:`im-header-tools`,children:[(0,E.jsxs)(`span`,{className:`im-length`,children:[n,` trin`]}),!s&&(0,E.jsx)(`button`,{type:`button`,className:`im-replay`,"aria-label":I,title:I,onClick:C,children:v?(0,E.jsxs)(E.Fragment,{children:[(0,E.jsx)(`svg`,{className:`im-film-clock`,viewBox:`0 0 32 32`,"aria-hidden":`true`,children:(0,E.jsx)(`circle`,{cx:`16`,cy:`16`,r:`14`,pathLength:`1`})}),(0,E.jsx)(p,{size:13,"aria-hidden":`true`})]}):(0,E.jsx)(c,{size:16,"aria-hidden":`true`})}),!s&&(0,E.jsx)(`button`,{type:`button`,className:`im-motion`,"aria-label":b?`Afspil bevægelsen`:`Sæt bevægelsen på pause`,title:b?`Afspil bevægelsen`:`Sæt bevægelsen på pause`,onClick:x,children:b?(0,E.jsx)(f,{size:15,"aria-hidden":`true`}):(0,E.jsx)(d,{size:15,"aria-hidden":`true`})})]})]}),(0,E.jsxs)(`section`,{className:`im-hero`,children:[(0,E.jsxs)(`h1`,{"aria-label":`Lær at investere.`,children:[(0,E.jsx)(`span`,{className:`im-title-lead`,children:`Lær at`}),(0,E.jsx)(`span`,{className:`im-signature`,children:(0,E.jsx)(`em`,{className:`im-signature-face`,children:`investere.`})})]}),(0,E.jsxs)(`p`,{className:`im-intro`,children:[`Find din platform. Prøv dit første køb.`,(0,E.jsx)(`br`,{}),`Øv dig uden at bruge rigtige penge.`]})]}),(0,E.jsxs)(`div`,{className:`im-lake-stage`,"aria-hidden":`true`,children:[(0,E.jsx)(`div`,{className:`im-mirror-water`,children:(0,E.jsxs)(`div`,{className:`im-mirror-bed`,children:[(0,E.jsx)(`canvas`,{className:`im-reflection-waves`,ref:P}),(0,E.jsx)(`img`,{className:`im-reflection-still`,src:O,alt:``})]})}),(0,E.jsx)(`div`,{className:`im-rise-window`,children:(0,E.jsx)(`div`,{className:`im-handset-lift`,children:(0,E.jsx)(`img`,{className:`im-handset`,ref:N,src:O,width:`780`,height:`1731`,alt:``,draggable:`false`,fetchPriority:`high`})})})]}),(0,E.jsxs)(l,{className:`im-main-cta guide-glass-action`,href:u(o),onPointerMove:M,onPointerDown:M,children:[(0,E.jsx)(`span`,{children:`Start guiden`}),(0,E.jsx)(a,{size:18,strokeWidth:1.5,"aria-hidden":`true`})]})]})})}export{N as default};
