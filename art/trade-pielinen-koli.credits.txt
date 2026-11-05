@@ -1,0 +1,5 @@
+Photograph: Panu Turunen
+Title: A view of a lake surrounded by trees
+Source: https://unsplash.com/photos/a-view-of-a-lake-surrounded-by-trees-b4wbcbR1CPg
+License: Unsplash License, https://unsplash.com/license
+Preparation: cropped to portrait and converted to WebP. Color and contrast adjusted in the app.

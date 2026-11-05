@@ -1,0 +1,1 @@
+import{a as e}from"./arrow-right-rsr3hQME.js";import{t}from"./Image-D7GkTARY.js";var n=e();function r(){return(0,n.jsxs)(`div`,{className:`platform-backdrop account-backdrop`,"aria-hidden":`true`,children:[(0,n.jsx)(t,{src:`/art/account-pielinen-lake.webp`,alt:``,width:525,height:788,priority:!0}),(0,n.jsx)(`div`,{})]})}export{r as t};

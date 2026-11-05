@@ -1,0 +1,5 @@
+Photograph: ASMRsleep
+Title: Lieksa, Finland, Summer
+Source: https://pixabay.com/photos/lieksa-finland-summer-2366842/
+License: CC0 1.0, https://creativecommons.org/publicdomain/zero/1.0/. Published June 5, 2017, and covered by section 4 of https://pixabay.com/service/terms/.
+Preparation: cropped to portrait and converted to WebP. Color and contrast adjusted in the app.
