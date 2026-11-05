@@ -1,1 +1,0 @@
-import{f as e}from"./arrow-right-BP-W5SVh.js";function t(t){return e[t]||e[0]}export{t};

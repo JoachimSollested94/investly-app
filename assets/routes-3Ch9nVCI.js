@@ -1,0 +1,1 @@
+import{f as e}from"./arrow-right-B-et1SSo.js";function t(t){return e[t]||e[0]}export{t};
