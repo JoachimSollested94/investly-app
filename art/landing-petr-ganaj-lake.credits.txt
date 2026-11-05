@@ -1,0 +1,9 @@
+Photograph: Petr Ganaj
+Title: Forest Landscape Mirroring in Lake
+Source: https://www.pexels.com/photo/forest-landscape-mirroring-in-lake-17863811/
+Image: https://images.pexels.com/photos/17863811/pexels-photo-17863811.jpeg
+License: Pexels License, https://www.pexels.com/license/
+Photographed: 2020-06-13 (camera information published by Pexels)
+Camera: Nikon D850, 24 mm, f/8, ISO 110, 1/500 sec
+Preparation: downloaded at 2000 x 1245, converted to WebP; photographic content unchanged.
+The app crops, color-grades and animates this photograph at runtime.
