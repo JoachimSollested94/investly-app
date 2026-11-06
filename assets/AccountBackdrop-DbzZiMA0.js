@@ -1,1 +1,0 @@
-import{D as e,x as t}from"./index-Oyfr7j-U.js";var n=e();function r(){return(0,n.jsx)(t,{className:`platform-backdrop account-backdrop`,src:`/art/account-forest-meadow.webp`})}export{r as t};
