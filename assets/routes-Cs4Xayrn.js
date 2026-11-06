@@ -1,1 +1,0 @@
-import{f as e}from"./arrow-right-rsr3hQME.js";function t(t){return e[t]||e[0]}export{t};

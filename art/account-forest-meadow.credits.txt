@@ -1,0 +1,5 @@
+Photograph: Petr Ganaj
+Title: Edge of Forest Meeting Meadow
+Source: https://www.pexels.com/photo/edge-of-forest-meeting-meadow-4072563/
+License: Pexels License, https://www.pexels.com/license/
+Preparation: cropped to portrait and converted to WebP. Color and contrast adjusted in the app.
