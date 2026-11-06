@@ -1,0 +1,1 @@
+import{D as e,x as t}from"./index-BoC1vEJ7.js";var n=e();function r(){return(0,n.jsx)(t,{className:`platform-backdrop account-backdrop`,src:`/art/trade-pielinen-koli.webp`})}export{r as t};
