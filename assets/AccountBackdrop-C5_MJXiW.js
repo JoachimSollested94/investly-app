@@ -1,1 +1,0 @@
-import{D as e,x as t}from"./index-BvBaFb0u.js";var n=e();function r(){return(0,n.jsx)(t,{className:`platform-backdrop account-backdrop`,src:`/art/account-pielinen-lake.webp`,width:525,height:788})}export{r as t};
