@@ -1,0 +1,15 @@
+Nyvestor landing page phone artwork
+Created: 2026-11-07
+Tool: built-in ImageGen, edit mode, transparent background
+Reference: existing lake-iphone.webp handset and a real 390 x 844 screenshot of the motivation page at source commit 16940a7.
+Output: lake-iphone-current.webp, 780 x 1731, WebP quality 0.9.
+
+Exact generation prompt:
+Use case: compositing / precise-object-edit.
+Asset type: transparent handset image for the Nyvestor website landing page.
+Image 1 is the EDIT TARGET: a cutout photograph of a black/silver iPhone, slightly seen from the left, with a transparent background.
+Image 2 is the EXACT SUPPORTING SCREEN INSERT: a screenshot of the current real Nyvestor application.
+Replace only the displayed app screen in image 1 with image 2, accurately fitting it to the phone glass perspective and rounded display. Preserve the actual screen layout, Danish text, typography, current muted mint landscape, four rounded translucent goal cards, disabled bottom button and risk footer from image 2. Use the screenshot as a visual insert, do not redesign or invent a new interface.
+Remove the obsolete UI seen in image 1: the 01 / 10 counter, window/interior landscape and bottom tab bar must disappear because they are not in the current screenshot. The screenshot's header with Nyvestor, Gemt i denne browser and 1 af 4 is the current header.
+Preserve image 1's handset hardware exactly: silhouette, side buttons, polished metal edge, black bezel, rounded screen corners, slight perspective, camera dynamic island, subtle realistic glass reflections, and 9:41 / cellular / Wi-Fi / battery status area. Fit the app screenshot below the existing status area, extending down to the home indicator. Keep the white home indicator below the app.
+The full phone must be visible with the same framing and orientation, no surrounding scene, no shadow outside the phone, no added content. Keep true alpha transparency outside the handset, including corners. Photorealistic sharp product cutout, clear screen, natural glass, no text outside the phone. Do not crop the device.
