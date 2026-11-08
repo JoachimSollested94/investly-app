@@ -8,8 +8,8 @@
   "scope": ".",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#050D09",
-  "theme_color": "#050D09",
+  "background_color": "#40514A",
+  "theme_color": "#40514A",
   "icons": [
     {
       "src": "nyvestor-mint-glass-icon-192.png",

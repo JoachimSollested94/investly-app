@@ -1,1 +1,0 @@
-import{D as e}from"./index-CzsohvYL.js";import{i as t}from"./GuideLink-Tp3wjryy.js";var n=e();function r({variant:e,type:r=`button`,className:i,...a}){return(0,n.jsx)(`button`,{type:r,className:t(i),...a})}export{r as t};
