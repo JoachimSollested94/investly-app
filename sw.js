@@ -1,14 +1,14 @@
 /* Nyvestor: fresh navigation, offline support and safe landing-page updates. */
-const CACHE = 'investly-v187';
+const CACHE = 'investly-v188';
 const CORE = [
   "./",
   "./index.html",
   "./manifest.webmanifest",
-  "./nyvestor-enso-icon-32.png",
-  "./nyvestor-enso-icon-180.png",
-  "./nyvestor-enso-icon-192.png",
-  "./nyvestor-enso-icon-512.png",
-  "./nyvestor-enso-maskable-512.png",
+  "./nyvestor-mint-glass-icon-32.png",
+  "./nyvestor-mint-glass-icon-180.png",
+  "./nyvestor-mint-glass-icon-192.png",
+  "./nyvestor-mint-glass-icon-512.png",
+  "./nyvestor-mint-glass-maskable-512.png",
   "./assets/AccountBackdrop-D4n8j4DI.js",
   "./assets/AccountBackdrop-DyaXHARU.css",
   "./assets/Button-sN5Ln46d.js",
